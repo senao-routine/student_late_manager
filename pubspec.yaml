@@ -1,0 +1,35 @@
+name: student_late_manager
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # QRコードスキャン用ライブラリ
+  qr_code_scanner: ^1.0.0
+
+  # PDF生成＆印刷用ライブラリ
+  pdf: ^3.10.0
+  printing: ^5.13.0
+
+  # iOS系アイコンなど
+  cupertino_icons: ^1.0.8
+
+  # QRコード生成用ライブラリ
+  qr_flutter: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # コードスタイル・リント
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
